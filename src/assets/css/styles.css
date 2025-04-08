@@ -1,0 +1,33 @@
+@import url(../fonts/dm-sans/stylesheet.css);
+/* @import '../../../node_modules/ol/ol.css'; */
+@import 'tailwindcss';
+
+html,
+body {
+  font-family: 'DM Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  @apply h-full;
+}
+
+#root {
+  @apply h-full;
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
